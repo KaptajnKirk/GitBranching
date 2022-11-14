@@ -2,12 +2,13 @@ package org.example;
 
 public class Main {
 
-  private Dog dog;
-  private Cat cat;
+  public static void main(String[] args) {
 
+  Cat cat = new Cat();
 
-  private void run(){
-    cat.makesound();
-    dog.makesound();
-  }
+  Dog dog = new Dog();
+
+ cat.makesound();
+ dog.makesound();
+}
 }
