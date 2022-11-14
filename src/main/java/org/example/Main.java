@@ -10,5 +10,8 @@ public class Main {
 
  cat.makesound();
  dog.makesound();
+
+ cat.eat("Catfood");
+ dog.eat("Dogfood");
 }
 }
