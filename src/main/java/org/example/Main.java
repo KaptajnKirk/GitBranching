@@ -7,7 +7,7 @@ public class Main {
 
 
   private void run(){
-    System.out.println(cat.makesound());
-    System.out.println(dog.makesound());
+    cat.makesound();
+    dog.makesound();
   }
 }

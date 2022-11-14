@@ -8,5 +8,5 @@ public abstract class Animal {
     this.name = name;
   }
 
-  public abstract String makesound();
+  public abstract void makesound();
 }

@@ -6,7 +6,7 @@ public class Dog extends Animal {
   }
 
   @Override
-  public String makesound() {
-    return "Vuf";
+  public void makesound() {
+    System.out.println("Vuf");
   }
 }
