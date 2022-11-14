@@ -1,6 +1,12 @@
 package org.example;
 
-public class abstract Animal {
+public abstract class Animal {
 
-  private final String name;
+  private String name;
+
+  protected Animal(String name) {
+    this.name = name;
+  }
+
+  public abstract String makesound();
 }
